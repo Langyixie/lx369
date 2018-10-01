@@ -12,6 +12,20 @@ div.desc { padding: 10px; text-align: center; }
     <source src="8D Music.mp3"></source> 
     <source src="8D Music.ogg"></source> 
 </audio>
+<script>
+function myFunction() {
+    var x = document.createElement("AUDIO");
+
+    if (x.canPlayType("audio/mpeg")) {
+        x.setAttribute("src","8D Music.mp3");
+    } else {
+        x.setAttribute("src","8D Music.ogg");
+    }
+
+    x.setAttribute("controls", "controls");
+    document.body.appendChild(x);
+}
+</script>
 <p> I have find this very interesting 8D music Mix on Youtube, by using the panning technic in mixing, the music sounds like circling around the listener.</p>
 <br>
 <br>
