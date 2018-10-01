@@ -1,0 +1,25 @@
+<html>
+<title>3D Audio</title>  
+<head>
+<h1> 3D Audio </h1>
+ </head>
+<body>
+ <style>
+body { background-color: #8DE4C0;}
+div.desc { padding: 10px; text-align: center; }
+</style>
+<p> Attention is one of my favorite song, I find a 3D version online to compare with the original version. It's not recoreded by 3D microphone, but sounds like 3D by mixing.</P>
+<br>
+<br>
+<audio controls preload> 
+    <source src="8D Music.mp3"></source> 
+    <source src="8D Music.ogg"></source> 
+</audio>
+<p> I put the 3D audio mixing version together with the original version to compare the difference between them.</p>
+<p> The 3D audio version has richer sound which makes the music virtically, and the original version just sounds plat.</p>
+<br>
+<br>
+<p> Thanks to the producer Officially 3D for this amazing work. Here is the link for the video: </p>
+<a href="https://www.youtube.com/watch?v=Q5MYiYWP_fM"> 3D Audio "Attention" </a>
+</body>
+</html>
